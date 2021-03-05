@@ -1,0 +1,103 @@
+.container {
+    .search-bar {
+        width: 20rem;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+        padding-top: 15rem;
+        padding-bottom: 3rem;
+        
+        .countries-box {           
+            
+            label {
+                margin-bottom: 10px;
+                width: 100%;
+            }
+    
+            .search {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: 1px solid #1F1F1F;
+                border-radius: 20px;
+                padding: 10px;
+                outline: none;
+                
+                &:hover {
+                    border: 2px solid #141414;
+                }
+                
+            }
+
+
+            .country-box-wrapper {
+
+                height: 200px;
+
+                .country-box {
+                    width: 100%;
+                    margin: 5px;
+                    border: 1px solid white;
+                    border-radius: 0 0 10px 10px;
+                    overflow: auto;
+                    padding: 10px 0;
+                }
+
+            }
+    
+        }
+        
+    }
+    .pagination {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    
+    .pagination a {
+        padding: 10px;
+        margin: 5px;
+        border-radius: 5px;
+        border: 1px solid #6c7ac9;
+        color: #6c7ac9;
+
+        &:hover {
+            border: 2px solid #6c7ac9;
+            color: white;
+            background: #6c7ac9;
+        }
+
+    }
+    
+    .pagination-link {
+        font-weight: bold;
+        padding-right: 5px;
+
+        &:hover {
+            border: 2px solid #6c7ac9;
+            background-color: #88CBE7;
+        }
+
+    }
+    
+    .pagination-link-active a {
+        color: #fff;
+        background: #6c7ac9;
+
+        &:hover {
+            background-color: white;
+            color: #6c7ac9;
+        }
+    
+    }
+    
+    .pagination-link-disabled a {
+        color: rgb(198, 197, 202);
+        border: 1px solid rgb(198, 197, 202);
+    }
+
+}
