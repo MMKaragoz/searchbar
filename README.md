@@ -1,4 +1,4 @@
-This is a search bar that searches countries. You can access from [here](https://search-bar-8jj3gq95r-mmkaragoz.vercel.app/)
+This is a search bar that searches countries. You can access from [here](https://searchbar.vercel.app/)
 
 ## Available Scripts
 
