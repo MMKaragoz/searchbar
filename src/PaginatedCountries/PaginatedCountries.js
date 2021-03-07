@@ -44,7 +44,7 @@ export default function PaginatedCountries() {
     useEffect(() => {
 
         fetch("https://restcountries.eu/rest/v2/all")
-        .then((reponse) => reponse.json())
+        .then((response) => response.json())
         .then((data) => {
 
             const allCountries = data.map((data) => {
